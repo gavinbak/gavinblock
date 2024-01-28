@@ -50,3 +50,11 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
+
+.container &gt; :not(.full-bleed) {
+  grid-column: 2;
+}
+.full-bleed {
+  width: 100%;
+  grid-column: 1 / 4;
+}
