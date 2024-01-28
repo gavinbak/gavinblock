@@ -38,6 +38,11 @@ li a {
   text-decoration: none;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr min(80%, 43.75rem) 1fr;
+}
+
 li a:hover:not(.active) {
   background-color: #111;
 }
