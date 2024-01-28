@@ -1,12 +1,14 @@
 @font-face {
-  font-family: "notoserif";
-  src: url("css/fonts/notoserif.eot");
-  src: url("css/fonts/some-font.woff") format("tff"),
-      
+    font-family: 'Noto Serif';
+    src: url('NotoSerif-Regular.woff2') format('woff2'),
+        url('NotoSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 h1 {
-  font-family: 'Some font', Arial, sans-serif;
+  font-family: 'Noto Serif', Arial, sans-serif;
   font-weight:normal;
   font-style:normal;
 }
