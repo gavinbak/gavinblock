@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "notoserif";
+  src: url("css/fonts/notoserif.eot");
+  src: url("css/fonts/some-font.woff") format("tff"),
+      
+}
+
 h1 {
-    font-family: F16;
-    src: url("notoserif.tff") format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'Some font', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
 }
