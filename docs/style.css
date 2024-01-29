@@ -14,6 +14,9 @@ h1 {
 }
 
 ul {
+    font-family: 'Noto Serif';
+  font-weight:normal;
+  font-style:bold;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -25,15 +28,24 @@ ul {
 }
 
 li {
+    font-family: 'Noto Serif';
+  font-weight:normal;
+  font-style:bold;
   float: left;
   border-right:1px solid #bbb;
 }
 
 li:last-child {
+    font-family: 'Noto Serif';
+  font-weight:normal;
+  font-style:bold;
   border-right: none;
 }
 
 li a {
+    font-family: 'Noto Serif';
+  font-weight:normal;
+  font-style:bold;
   display: block;
   color: white;
   text-align: center;
@@ -60,4 +72,10 @@ li a:hover:not(.active) {
 .full-bleed {
   width: 100%;
   grid-column: 1 / 4;
+}
+
+p {
+    font-family: 'Noto Serif';
+  font-weight:normal;
+  font-style:bold;
 }
