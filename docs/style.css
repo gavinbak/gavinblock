@@ -125,3 +125,17 @@ display: grid;
 .div2 { grid-area: 1 / 2 / 4 / 3; 
       background-color: #efd6ac}
 .div3 { grid-area: 1 / 3 / 4 / 4; }
+
+.parallax {
+  /* The image used */
+  background-image: url("header.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
