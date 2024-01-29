@@ -56,6 +56,9 @@ li a {
 .container {
   display: grid;
   grid-template-columns: 1fr min(80%, 43.75rem) 1fr;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 li a:hover:not(.active) {
