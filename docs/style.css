@@ -108,7 +108,7 @@ p {
   position: relative;
   top: 35%;
   left: 30%;
-  transform: translate(-35%, -35%);
+  transform: translate(-35%, -30%);
 }
 
 .parent {
