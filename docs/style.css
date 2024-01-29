@@ -82,7 +82,7 @@ p {
   font-weight:normal;
   font-style:bold;
     color: black;
-    padding: 50px;
+    margin: 50px;
 }
 
 .dropdown {
