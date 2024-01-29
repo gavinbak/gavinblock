@@ -112,8 +112,8 @@ p {
 
 .parent {
 display: grid;
-grid-template-columns: .5fr 1fr .5fr;
-grid-template-rows: repeat(3, 1fr);
+grid-template-columns: .25fr 1fr .25fr;
+grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
