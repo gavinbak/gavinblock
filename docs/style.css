@@ -231,3 +231,18 @@ display: grid;
 .demo:hover {
   opacity: 1;
 }
+
+.photo-parent {
+display: grid; 
+  grid-template-columns: 7% 70% 7%; 
+  grid-template-rows: 100%; 
+  gap: 0% 8%; 
+  grid-template-areas: 
+    ". . ."; 
+}
+
+}
+.div1 { grid-area: 1 / 1 / 4 / 2; }
+.div2 { grid-area: 1 / 2 / 4 / 3; 
+      background-color: #efd6ac}
+.div3 { grid-area: 1 / 3 / 4 / 4; }
