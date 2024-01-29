@@ -25,6 +25,7 @@ ul {
     position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+    border-radius: 5px;
 }
 
 li {
@@ -33,6 +34,7 @@ li {
   font-style:bold;
   float: left;
   border-right:1px solid #bbb;
+    border-radius: 5px;
 }
 
 li:last-child {
@@ -40,6 +42,7 @@ li:last-child {
   font-weight:normal;
   font-style:bold;
   border-right: none;
+    border-radius: 5px;
 }
 
 li a {
