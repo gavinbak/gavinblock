@@ -128,10 +128,10 @@ display: grid;
 
 .parallax {
   /* The image used */
-  background-image: url("header.jpg");
+  background-image: url("header.jpeg");
 
   /* Set a specific height */
-  min-height: 200px;
+  min-height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
