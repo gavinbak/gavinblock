@@ -157,8 +157,10 @@ display: grid;
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
-  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
