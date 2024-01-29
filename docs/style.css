@@ -163,3 +163,7 @@ display: grid;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.no-pad{
+    padding: 0px;
+}
