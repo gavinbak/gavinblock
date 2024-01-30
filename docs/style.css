@@ -130,7 +130,8 @@ display: grid;
 }
 .div1 { grid-area: 1 / 1 / 4 / 2; }
 .div2 { grid-area: 1 / 2 / 4 / 3; 
-      background-color: #efd6ac}
+      background-color: #efd6ac
+      border-radius: 15px;}
 .div3 { grid-area: 1 / 3 / 4 / 4; }
 
 .parallax {
