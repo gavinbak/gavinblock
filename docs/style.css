@@ -223,7 +223,7 @@ display: grid;
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #222;
+  background-color: #EFD6AC;
   padding: 2px 16px;
   color: white !Important;
     font-family: 'Noto Serif';
