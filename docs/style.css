@@ -225,7 +225,7 @@ display: grid;
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
-  color: white;
+  color: white !Important;
     font-family: 'Noto Serif';
   font-weight:normal;
   font-style:bold;
