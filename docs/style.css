@@ -177,14 +177,17 @@ display: grid;
 .prev,
 .next {
   cursor: pointer;
-  position: relative;
+  position: absolute;
   top: 40%;
-  width: auto;
+  width: 25%;
   padding: 16px;
   margin-top: -50px;
   color: white;
-  font-weight: bold;
-  font-size: 20px;
+ font-family: 'Noto Serif';
+  font-weight:normal;
+  font-style:bold;
+    color: white;
+    margin: 50px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
