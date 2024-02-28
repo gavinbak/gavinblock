@@ -289,5 +289,5 @@ display: grid;
 }
 .proj1{
     grid-area: 1/2/1/1;
-    text-align: left;
+    text-align: right;
 }
