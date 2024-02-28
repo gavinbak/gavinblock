@@ -268,3 +268,20 @@ display: grid;
 .div2 { grid-area: 1 / 2 / 4 / 3; 
       background-color: #efd6ac}
 .div3 { grid-area: 1 / 3 / 4 / 4; }
+
+.projcontainer {  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50% 50% 50% 50% 50% 50% 50%;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". .";
+}
+
